@@ -50,10 +50,8 @@ def home(request):
                             posting_date=ts))
 
             Tweet.objects.bulk_create(tweet_list)
-            context = {
-                "success" : str(len(tweet_list))+" "+"Tweets Have Been Added",
-            }
-            return render(request, 'PhotoGallery/home.html', context)
+
+            return HttpResponse(len(tweet_list)+" "+"Tweets Have Been Added")
     
 
     context = {} 

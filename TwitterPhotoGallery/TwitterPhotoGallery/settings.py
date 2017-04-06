@@ -35,10 +35,10 @@ ALLOWED_HOSTS = []
 
 # I am lazy so I put it directly in the source code. THIS IS NOT SAFE
 # AND SHOULD NOT BE DONE
-CONSUMER_KEY = '37mmtGyeM5lolI1UGqqB2LZDu'
-CONSUMER_SECRET = 'xnXsPlG48KrrqxBcuAsvgdiu04kbIGLVcurkzQSEyhAx8gf4NF'
-ACCESS_TOKEN = '3240211217-S4gGH3Ha8jc7uRSVnJGFCoSVma3qRiRNAzPQdPE'
-ACCESS_SECRET = 'mBogcSsmds3IIvKVl3uL0BzueM0dOSaolBUsjQOUFbE6L'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
 
 # Application definition
 

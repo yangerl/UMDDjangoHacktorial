@@ -1,8 +1,8 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url
 
 import views
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^$', views.home, name='home'),
-    url(r'^login/(\w*)', views.login, name='login')
-)
+    url(r'^gallery/', views.gallery, name='gallery')
+]
